@@ -2,15 +2,11 @@
   "name": "glob-test-min",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "main": "worker.js",
   "dependencies": {
-    "express": "^4.21.1",
     "glob": "^11.0.0"
   },
   "engines": {
-    "node": ">=22.x.x < 23.x.x"
+    "node": ">=23.x.x"
   }
 }
